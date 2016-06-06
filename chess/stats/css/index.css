@@ -1,0 +1,155 @@
+body {
+margin:0;
+padding:0;
+height:100%;
+width:100%;
+overflow:hidden;
+position:fixed;
+}
+h1 {
+margin-left:30%;
+margin-right:30%;
+height:5%;
+
+padding:0;
+float:center;
+text-align:center;
+}
+#top10 {
+margin:0;
+padding:0;
+height:90%;
+width:50%;
+float:left;
+background-color:white;
+text-decoration:none;
+color:black;
+font-size:24px;
+position:relative;
+z-index:1;
+}
+
+#top10:hover {
+background-color:#CCCCCC;
+}
+#top10inner {
+position:absolute;
+top:40%;
+left:45%;
+text-align:center;
+}
+#tour {
+float:left;
+height:90%;
+width:50%;
+background-color:white;
+text-decoration:none;
+color:black;
+font-size:24px;
+z-index:1;
+}
+#tour:hover {
+background-color:#CCCCCC;
+}
+
+#tourinner {
+position:absolute;
+top:43.5%;
+right:20%;
+text-align:center;
+}
+
+#tournaments {
+color:#0066CC;
+font-size:14;
+border:2px solid #0066CC;
+text-align:center;
+margin-top:10px;
+margin-left:30%;
+margin-right:30%;
+}
+
+
+/*#updated {
+color:#006633;
+font-size:14;
+border:2px solid #006633;
+text-align:center;
+margin-top:10px;
+margin-left:25%;
+margin-right:25%;
+visibility:hidden;
+}*/
+
+#topupdates {
+margin-top:100px;
+font-size:14px;
+color:#888888;
+}
+
+#tourupdates {
+margin-top:20px;
+font-size:14px;
+color:#888888;
+}
+
+#maintenance {
+color:#FF0000;
+font-size:14;
+border:2px solid #FF0000;
+text-align:center;
+margin-top:10px;
+
+}
+
+#beta {
+color:#FF9933;
+font-size:14;
+border:2px solid #FF9933;
+text-align:center;
+margin-top:10px;
+margin-left:30%;
+margin-right:30%;
+}
+
+/* Archive folder */
+
+img {
+	position:absolute;
+	z-index:100;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px;
+   text-align:center;
+   background-color:#FFFFFF;
+   color:#CCCCCC;
+   z-index:1;
+}
+
+a {
+	text-decoration:none;
+	color:#999999;
+}
+
+a:hover {
+	color:#777777;
+}
+
+#update {
+	color:#0066FF;
+	font-size:12px;
+	border:2px solid #0066FF;
+	width:80px;
+	margin: 0 auto;
+	margin-top:20px;
+}
+
+#update2 {
+	color:#666666;
+	font-size:12px;
+	margin-top:20px;
+}

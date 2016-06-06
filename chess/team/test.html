@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>mouseover demo</title>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <style>
+td{width:200px;text-align:center; background-color:gray;}
+  </style>
+</head>
+<body>
+<table>
+    <tr><th>Head</th><tr>
+    <tr><td>1</td><tr>
+    <tr><td>2</td><tr>
+    <tr><td>3</td><tr>
+</table>
+ 
+<script>
+$('tr').mouseover(function() {
+	console.log(this);
+    $('td', this).stop(true, true).animate
+        ({ backgroundColor: "red" }, 1000);
+});
+
+$('tr').mouseout(function() {
+    $('td', this).stop(true, true).animate
+        ({ backgroundColor: "#666" }, 1000);
+});
+
+
+</script>
+ 
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+font-family: Verdana,Arial,sans-serif;
+}
+
+td {
+padding:15px;
+}
+#title {
+text-decoration:none;
+color:black;
+}
+td.rank
+{
+text-align: center;
+width:7%;
+}
+td.rankchange
+{
+text-align:center;
+width:7%;
+}
+td.title
+{
+text-align:center;
+width:7%;
+}
+td.name
+{
+text-align:left;
+width:20%;
+}
+td.rating
+{2:52 PM 8/7/2013
+text-align:center;
+width:10%;
+}
+td.tournament
+{
+text-align:left;
+width:30%;
+}
+td.date
+{
+text-align: left;
+width:10%;
+}
+td.ratingchange
+{
+text-align:center;
+width:9%;
+}
+th.scholastic
+{
+background-color:orange;
+}
+th.general
+{
+background-color:#b1d1e3;
+}
+th.female
+{
+background-color:pink;
+}
+h2
+{
+text-align: center;
+}
+table
+{
+width:100%;
+}
+
+a {
+	color:blue;
+}

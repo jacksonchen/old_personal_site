@@ -1,0 +1,18 @@
+<h1> <%= pluralize @tutors.count,"Tutor" %></h1>
+
+<br>
+
+<ul>
+	<% @tutors.each do |a| %>
+<li> <%= link_to a.name, a %> </li>
+		
+	<% end %>
+
+</ul>
+
+<br>
+<%= link_to "New Tutor", new_tutor_path  %>
+
+<br>
+<br>
+<%= Time.current  %>

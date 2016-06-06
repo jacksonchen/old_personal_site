@@ -1,0 +1,40 @@
+
+<h1><%=  @tutor.name %> </h1>
+
+<dl class="info">
+	<dt> Category:</dt>
+	<dd>
+	<%= @tutor.category %>
+	</dd>
+</dl>
+
+<dl class="info">
+        <dt> Cost ($):</dt>
+        <dd>
+        <%= @tutor.cost %>
+        </dd>
+</dl>
+
+<div>
+	<%= @tutor.description %>
+</div>
+
+<br>
+<dl class="info">
+<dt>Created at:</dt>
+<dd>
+<%= @tutor.created_at.to_s(:long) + "UTC" %> 
+<%= time_ago_in_words @tutor.created_at %>  ago 
+</dd>
+</dl>
+
+<br>
+<%= link_to "Click to Edit",edit_tutor_path(@tutor) %>
+
+<br>
+<%= link_to "Click to Delete", @tutor, :data => {:method => :delete,
+  :confirm => "are you sure?" } %>
+
+<br>
+<%= link_to "Back to All Tutors",tutors_path %>
+

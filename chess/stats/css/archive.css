@@ -1,0 +1,35 @@
+h1 {
+	text-align:center;
+}
+
+h1:hover {
+	text-decoration:underline;
+}
+
+div {
+	width:400px;
+	text-align:center;
+	font-size:24;
+	margin:40px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+li {
+	width:400px;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#fff;
+}
+
+li:hover {
+	background-color:#eee;
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+}

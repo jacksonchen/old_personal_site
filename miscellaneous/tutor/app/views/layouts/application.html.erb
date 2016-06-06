@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tutoring Marketplace</title>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <%= csrf_meta_tag %>
+  <%= stylesheet_link_tag 'application', :media => "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag 'application', "data-turbolinks-track" => true %>
+</head>
+<body>
+  <div id="main">
+    <header>
+      <div id="toolbar">
+      </div>
+      <h1>
+        <%= link_to '<span class="c4">T</span><span class="c4">u</span><span class="c4">t</span><span class="c4">o</span><span class="c4">r</span><span class="c4">i</span><span class="c4">n</span><span class="c4">g</span><span> </span><span class="l2">M</span><span class="a3">a</span><span class="r4">r</span><span class="n5">k</span><span class="i6">e</span><span class="g7">t</span><span class="e1">p</span><span class="12">l</span><span class="a3">a</span><span class="r4">c</span><span class="n5">e</span>'.html_safe, root_path %>
+      </h1>
+      <nav>
+        <ul>
+          <li><%= link_to "List", tutors_path %></li>
+          <li><%= link_to "Create", new_tutor_path %></li>
+        </ul>
+      </nav>
+    </header>
+    <% if notice %><p class="notice"><%= notice %></p><% end %>
+    <% if alert %><p class="alert"><%= alert %></p><% end %>
+
+    <%= yield %>
+	<p class="footer">Note this is a pre-alpha version of the Tutoring Marketplace.</p>
+  </div>
+</body>
+</html>
+

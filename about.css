@@ -1,0 +1,17 @@
+#about {
+color:white;
+margin-left:23%;
+}
+#aboutlinks {
+color:#CCCCCC;
+}
+#aboutlinks:hover {
+color:#555555;
+}
+#navlinks {
+line-height:40px;
+}
+
+img {
+padding-bottom:4px;
+}
